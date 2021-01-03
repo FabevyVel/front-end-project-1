@@ -1,0 +1,11 @@
+/* Common Styles */
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Quick Links */
+#quick-links{
+    background-color: #106EEA;
+}
+
