@@ -1,3 +1,7 @@
+body{
+    background-image: url('../images/reference.png');
+    height: 8981px;
+}
 /* Common Styles */
 .container{
     width: 1140px;
@@ -7,5 +11,74 @@
 /* Quick Links */
 #quick-links{
     background-color: #106EEA;
+    height: 40px;
 }
 
+#header{
+    height: 93px;
+    background-color: #ff0000a3;
+}
+
+#banner{
+    height: 595px;
+    background-color: #0000ff8f;
+}
+
+#highlights{
+    height: 364px;
+}
+
+#about{
+    height: 813px;
+}
+
+#skills{
+    height: 255px;
+}
+
+#statistics{
+    height: 276px;
+}
+
+#clients{
+    height: 100px;
+}
+
+#service{
+    height: 995px;
+}
+
+#testimonials{
+    
+}
+
+#portfolio{
+    
+}
+
+#team{
+    
+}
+
+#pricing{
+    
+}
+#faq{
+    padding-top: 6785px;
+}
+
+#contact{
+    
+}
+
+#newsletter{
+    padding-top: 1460px;
+}
+
+#footer{
+    
+}
+
+#legals{
+    
+}
