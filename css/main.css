@@ -10,7 +10,7 @@ body{
 
 /* Quick Links */
 #quick-links{
-    background-color: #106EEA;
+    background-color: #106eea99;
     height: 40px;
 }
 
@@ -26,59 +26,74 @@ body{
 
 #highlights{
     height: 364px;
+    background-color: #ff0000a3;
 }
 
 #about{
+    background-color: #106eea99;
     height: 813px;
 }
 
 #skills{
+    background-color: #ff0000a3;
     height: 255px;
 }
 
 #statistics{
+    background-color: #106EEA;
     height: 276px;
 }
 
 #clients{
     height: 100px;
+    background-color: #ff0000a3;
 }
 
 #service{
+    background-color: #106eea99;
     height: 995px;
 }
 
 #testimonials{
-    
+    background-color: #ff0000a3;
+    height: 434px;
 }
 
 #portfolio{
-    
+    background-color: #106eea99;
+    height: 1437px;
 }
 
 #team{
-    
+    background-color: #ff0000a3;
+    height: 666px;
 }
 
 #pricing{
-    
+    background-color: #106eea99;
+    height: 720px;
 }
 #faq{
-    padding-top: 6785px;
+    background-color: #ff0000a3;
+    height: 606px;
 }
 
 #contact{
-    
+    background-color: #106eea99;
+    height: 933px;
 }
 
 #newsletter{
-    padding-top: 1460px;
+    height: 236px;
+    background-color: #ff0000a3;
 }
 
 #footer{
-    
+    background-color: #106eea99;
+    height: 340px;
 }
 
 #legals{
-    
+    background-color: #ff0000a3;
+    height: 78px;
 }
