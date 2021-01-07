@@ -25,9 +25,22 @@ body{
 }
 
 #highlights{
-    height: 364px;
+    height: 307px;
     background-color: #ff0000a3;
+    padding: 58px 0 0 0;
 }
+#highlights .f-container{
+    display: flex;
+    justify-content: space-around;
+}
+#highlights .f-item{
+    background-color: #fff;
+    flex-basis: 20%;
+    padding: 15px;
+    box-shadow: #d5d5d5 0px 0px 15px;
+    border-radius: 8px;
+}
+
 
 #about{
     background-color: #106eea99;
@@ -53,7 +66,15 @@ body{
     background-color: #106eea99;
     height: 995px;
 }
+#service .section-title{
+    height: 219px;
+}
+#service .section-content .f-container{
 
+}
+#service .section-content .f-item{
+
+}
 #testimonials{
     background-color: #ff0000a3;
     height: 434px;
