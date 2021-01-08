@@ -1,32 +1,89 @@
 body{
     background-image: url('../images/reference.png');
     height: 8981px;
+    font-family: 'Poppins', 'Arial', sans-serif;
 }
 /* Common Styles */
 .container{
     width: 1140px;
     margin: 0 auto;
 }
+.primary-btn{
+    background: #106eea;
+    display: inline-block;
+    padding: 12px 22px;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.secondary-btn{
+    color: #000;
+    text-decoration: none;
+}
 
 /* Quick Links */
 #quick-links{
-    background-color: #106eea99;
     height: 40px;
+}
+#quick-links .f-container{
+    display: flex;
+    justify-content: space-between;
+}
+#quick-links .f-container .f-item{
+    
 }
 
 #header{
     height: 93px;
-    background-color: #ff0000a3;
+}
+#header .f-container{
+    display: flex;
+    justify-content: space-between;
+}
+#header .f-container .f-item{
+    
 }
 
 #banner{
     height: 595px;
-    background-color: #0000ff8f;
+    background: url('../images/hero-bg.jpg'); 
+    background-size: cover;
+    position: relative;
 }
+#banner .white-overlay {
+    background: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#banner .f-container{
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+#banner h1{
+    padding-top: 224px;
+    font-size: 45px;
+    padding-bottom: 12px;
+}
+#banner h1 span{
+    color: #106eea;
+}
+#banner p{
+    font-size: 22px;
+    padding-bottom: 30px;
+}
+#banner .cta-wrapper{}
+#banner .cta-wrapper a{}
+#banner .cta-wrapper a.primary-btn{
+    margin-right: 10px;
+}
+#banner .cta-wrapper a.secondary-btn{}
 
 #highlights{
     height: 307px;
-    background-color: #ff0000a3;
     padding: 58px 0 0 0;
 }
 #highlights .f-container{
@@ -53,7 +110,7 @@ body{
 }
 
 #statistics{
-    background-color: #106EEA;
+    background-color: #106eea9e;
     height: 276px;
 }
 
@@ -63,7 +120,6 @@ body{
 }
 
 #service{
-    background-color: #106eea99;
     height: 995px;
 }
 #service .section-title{
@@ -95,18 +151,34 @@ body{
     height: 720px;
 }
 #faq{
-    background-color: #ff0000a3;
     height: 606px;
 }
 
 #contact{
-    background-color: #106eea99;
     height: 933px;
 }
+#contact .section-title{
+    height: 275px;
+}
+#contact .section-content{}
+#contact .f-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#contact .f-item{
+    text-align: center;
+}
+#contact .f-item.size-a{
+    flex-basis: 50%;
+}
+#contact .f-item.size-z{
+    flex-basis: 25%;
+}
+#contact {}
+#contact{}
 
 #newsletter{
     height: 236px;
-    background-color: #ff0000a3;
 }
 
 #footer{
