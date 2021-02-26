@@ -19,6 +19,42 @@ body{
 .secondary-btn{
     color: #000;
     text-decoration: none;
+    line-height: 50px;
+}
+.secondary-btn i{
+    font-size: 30px;
+    color: #106eea;
+    position: relative;
+    top: 4px;
+}
+.section-title{
+    text-align: center;
+    padding: 60px 0 0;
+}
+.section-title h4{
+    padding-bottom: 20px;
+}
+.section-title h4 span{
+    background: #e7f1fd;
+    border-radius: 14px;
+    padding: 7px 12px;
+    display: inline-block;
+    color: #106eea;
+    font-size: 13px;
+    font-weight: 600;
+}
+.section-title h2{
+    font-size: 36px;
+    color: #444444;
+    margin-bottom: 20px;
+}
+.section-title h2 span{
+    color: #106eea;
+}
+.section-title p{
+    max-width: 590px;
+    margin: auto;
+    line-height: 22px;
 }
 
 /* Quick Links */
@@ -100,8 +136,8 @@ body{
 
 
 #about{
-    background-color: #106eea99;
     height: 813px;
+    background: #f6f9fe;
 }
 
 #skills{
